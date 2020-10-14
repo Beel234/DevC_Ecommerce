@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+   display: inline-block;
+   list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    color: #555;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+  
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    
+
+}
+
+.col-2 h1{
+    font: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: peachpuff;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: rgb(218, 206, 196);
+}
+
+/*second section*/
+
+.sections{
+    margin: 70px 0;
+}
+.col3{
+    flex-basis: 30px;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+/*
+.col3 img{
+    width: 100%;
+}
+
+.medium-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+/*third section*/
+.col4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col4 img{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 50px;
+    color: rgb(155, 140, 126);
+}
+
+.title::after{
+    content:"" ;
+    background:peachpuff ;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.col4 p{
+    font-size: 14px;
+}
+
+.rating .fa{
+    color: #d6aa17;
+}
+
+.col4:hover{
+    transform: translateY(-5px);
+}
+
+
+/*--------------------------reviews-----*/
+.reviews{
+    padding-top: 100px;
+}
+
+.reviews .col3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.1) ;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.reviews .col3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.reviews .col3:hover{
+    transform: translateY(-10px);
+
+}
+
+.fa.fa-quote-left{
+    font-size: 40px;
+    color: peachpuff;
+}
+
+.col3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.reviews .col3 h3{
+    font-weight: 600 ;
+    color: #555;
+    font-size: 16px;
+}
+
+/*---------------footer--------------------*/
+.footer{
+    background:peachpuff;
+    color: #3a3232;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #3a3232;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col1, .footer-col3, .footer-col4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col1{
+    flex-basis: 40%;
+}
+
+.footer-col3, .footer-col4{
+    flex-basis: 12%;
+}
+ul{
+    list-style-type: none;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: rgb(255, 255, 255);
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+
+/*--------Registration page-------------*/
+
+.registration-page{
+    padding: 50px 0;
+}
+
+.form-content{  
+    background: peachpuff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1) ;
+
+}
+
+.form-content span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: rgb(83, 78, 77);
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn{
+    display: inline-block;
+}
+
+.form-content form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid rgb(189, 180, 180);
+    border-radius: 50px;
+}
+
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    background-color: rgb(36, 33, 33);
+    color:rgb(255, 255, 255);
+    border: 1px solid rgb(189, 180, 180);
+}
+
+form .btn:focus{
+    outline: none;
+}
+
+
+form a{
+    font-size: 12px;
+}
+
+#indicator{
+    width: 100px;
+    border: none;
+    background: rgb(243, 243, 238);
+    height: 3px;
+    margin-top: 8px;
+}
+
+
+
+
+/*--------media qieries*/
+
+@media only screen and (max-width: 800px){
+
+    nav ul{
+        
+        top: 70px;
+        left: 0;
+        width: 100px;
+    }
+
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
